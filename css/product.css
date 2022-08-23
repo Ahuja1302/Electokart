@@ -1,0 +1,148 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+}
+
+nav {
+    text-align: right;
+    flex: 1;
+
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.heading {
+
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    margin-top: 3rem;
+
+
+}
+
+.container {
+
+    width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+
+
+}
+
+
+
+.bgcolor {
+    background-color: white;
+    background-image: url('../images/img.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.images {
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    margin-bottom: 130px;
+
+
+
+}
+
+.images:hover {
+
+
+    color: #303030;
+    box-shadow: 0px 0px 4px 5px #888888;
+
+
+}
+
+.Productpage {
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+/*-------------------------------------------	*/
+.flex-container {
+    display: flex;
+
+    justify-content: space-between;
+    margin: 10px 0px;
+
+}
+
+.txt {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+.imges {
+    height: 250px;
+    background: white;
+    object-fit: contain;
+    width: 250px;
+    padding: 1rem;
+    margin-right: 50px;
+    border-radius: 10px;
+    transition: 1s all ease;
+
+}
+
+.imges:hover {
+    color: #303030;
+    box-shadow: 0px 0px 4px 5px #888888;
+}
+
+
+/*-------------------------------------------	*/
+
+#pr {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+}
+
+#productlist {
+
+    margin-left: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-right: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
